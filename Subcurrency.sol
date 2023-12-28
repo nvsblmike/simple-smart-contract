@@ -2,7 +2,7 @@
 pragma solidity ^0.8.17;
 
 contract Subcurrency {
-    uint256 public currencyCreator;
+    address public currencyCreator;
 
     mapping(address => uint256) public balances;
 
